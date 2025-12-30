@@ -22,7 +22,7 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
-        path: '../app/(app)/_components/{{pascalCase name}}/test.tsx',
+        path: '../app/(app)/_components/{{pascalCase name}}/test.spec.tsx',
         templateFile: 'templates/test.tsx.hbs'
       }
     ]
