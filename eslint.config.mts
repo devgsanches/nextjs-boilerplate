@@ -11,7 +11,6 @@ import prettier from 'eslint-config-prettier'
 
 export default defineConfig([
   {
-    files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     ignores: [
       '.next/**',
       'node_modules/**',
@@ -20,7 +19,10 @@ export default defineConfig([
       'build/**',
       '*.config.{js,mjs,cjs,ts,mts}',
       'next-env.d.ts'
-    ],
+    ]
+  },
+  {
+    files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     languageOptions: {
       parser: tsPlugin.parser,
       parserOptions: {
