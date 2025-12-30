@@ -15,8 +15,8 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Won Games',
-  description: 'Won Games is a platform for buying and selling games'
+  title: 'Name',
+  description: 'Description'
 }
 
 export default function RootLayout({
